@@ -1,101 +1,59 @@
 <!DOCTYPE html>
 <html lang="pt-br">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="preconnect" href="https://fonts.gstatic.com">
-    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap" rel="stylesheet">
-    <title>Portfolio</title>
-    <style>
-        body {
-            background-color: #CCCCCC;
-            font-size: 16px;
-        }
-        #image {
-            border-radius: 100%;
-            display: block;
-            margin-left: auto;
-            margin-right: auto;
-            width: 300px;
-        }
-        h1 {
-            color: #183446;
-            font-size: 48px;
-            font-family: 'Roboto', sans-serif;
-            text-align: center;
-        }
-        .text-style {
-            color: #0b2c41;
-            font-family: sans-serif;
-            font-size: 16px;
-            text-decoration: none;
-        }
-        h3 {
-            color: #183446;
-            font-size: 36px;
-        }
-        em {
-            color: #0176a0;
-        }
-        .item-1 {
-            font-size: 1.5em;
-        }
-        .item-2 {
-            font-size: 1.4em;
-        }
-        .item-3 {
-            font-size: 1.3em;
-        }
-        .item-4 {
-            font-size: 1.2em;
-        }
-        .item-5 {
-            font-size: 1.1em;
-        }
-        .image-links {
-            height: 30px;
-        }
-        .indice {
-            display: inline;
-        }
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="style.css">
+        <link rel="preconnect" href="https://fonts.gstatic.com">
+        <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap" rel="stylesheet">
+        <title>Portfolio</title>
+    </head>
+    <body>
+        <div class="indice">
+            <a href="#imagem">Inicio</a>
+            <a href="#sobre">Sobre mim</a>
+            <a href="#hab">Habilidades</a>
+            <a href="#links">Meus Links</a>
+        </div>
 
+        <div class="div-nome">
+            <h1>Felipe Ventorim Mendonça</h1>
+        </div>
 
+        <div class="div-sobre-foto">
+            <div class="div-sobre">
+                <h3 id="sobre">Sobre mim</h3>
+                <p class="text-style">Me chamo Felipe, tenho 28 anos e moro em Cariacica-ES.<br> 
+                    Sou formado no curso Técnico em Transporte Ferroviário e formando em Engenharia de Controle e Automação. 
+                    Também sou estudante de <em>Desenvolvimento Web</em> na <strong>Trybe</strong></p>
+            </div>
 
-    </style>
-</head>
-<body>
-    
-    <a class="indice" href="#imagem">Inicio</a>
-    <a class="indice" href="#sobre">Sobre</a>
-    <a class="indice" href="#hab">Habilidades</a>
-    <a class="indice" href="#links">Links</a>
-    <br>
-    <br>
-    <img id="image" src="images/Eu.jpg" alt="Foto do meu rosto 
-    com o mar ao fundo, tirada em 2017 para a formatura">
-    <br>
+            <div class="div-foto">
+                <img id="foto" src="images/Eu.jpg" alt="Foto do meu rosto 
+                com o mar ao fundo, tirada em 2017 para a formatura">
+            </div>
+        </div>
+        <div id="hab">
+            <h3>Habilidades</h3>
+            <ul class="text-style">
+                <li>Unix</li>
+                <li>Bash</li>
+                <li>Git</li>
+                <li>GitHub</li>
+                <li>HTML</li>
+                <li>CSS</li>
+                <li>JavaScript</li>
+            </ul>
+        </div>
 
-    <h1>Felipe Ventorim Mendonça</h1>
-    <br>
-    <h3 id="sobre">Sobre mim</h3>
-    <p class="text-style">Me chamo Felipe, tenho 28 anos, sou estudante de <em>Desenvolvimento de 
-        Software</em> na <strong>Trybe</strong> e moro em Cariacica-ES.</p>
-    <br>
-    <h3 id="hab">Habilidades</h3>
-    <ul>
-        <li class="text-style item-1">Unix & Bash</li>
-        <li class="text-style item-2">Git & GitHub</li>
-        <li class="text-style item-3">HTML</li>
-        <li class="text-style item-4">CSS</li>
-        <li class="text-style item-5">JavaScript</li>
-    </ul>
-    <br>
-    <h3 id="links">Meus links</h3>
-    <ul>
-        <li><a class="text-style" href="https://github.com/felipeventorim" target="_blank"><img class="image-links" src="images/GitHub-Mark-64px.png"> GitHub</a></li>
-        <li><a class="text-style" href="https://www.linkedin.com/in/felipeventorim/" target="_blank"><img class="image-links" src="images/linkedin.png"> LinkedIn</a></li>
-        <li><a class="text-style" href="https://www.instagram.com/felipe.ventorim/" target="_blank"><img class="image-links" src="images/Instagram.png"> Instagram</a></li>
-    </ul>
-</body>
+        <div id="links">
+            <h3>Meus links</h3>
+            <ul>
+                <li><a class="text-style" href="https://github.com/felipeventorim" target="_blank"><img class="imagem-links" src="images/GitHub-Mark-64px.png"> GitHub</a></li>
+                <li><a class="text-style" href="https://www.linkedin.com/in/felipeventorim/" target="_blank"><img class="imagem-links" src="images/linkedin.png"> LinkedIn</a></li>
+                <li><a class="text-style" href="https://www.instagram.com/felipe.ventorim/" target="_blank"><img class="imagem-links" src="images/Instagram.png"> Instagram</a></li>
+            </ul>
+        </div>
+    </body>
 </html>
