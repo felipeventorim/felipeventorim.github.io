@@ -1,0 +1,100 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  font-family: 'Montserrat', sans-serif;
+}
+body {
+  background-color: aqua;
+}
+header {
+  background-color: #cccccc;
+  padding: 15px 0px;
+  text-align: center;
+}
+.caixa {
+  display: inline-block;
+  width: 100%;
+  background-color: #cccccc;
+  padding-bottom: 20px;
+}
+.caixa img {
+  display: inline-block;
+  width: 200px;
+  padding-left: 15px;
+}
+nav {
+  float: right;
+  margin-top: 64px;
+}
+nav li {
+  display: inline;
+  padding: 0px 15px;
+}
+nav a {
+  font-size: 18px;
+  text-transform: uppercase;
+  color: #000000;
+  font-weight: bold;
+  text-decoration: none;
+}
+nav a:hover {
+  color: aqua;
+  text-decoration: underline;
+}
+#imagem {
+  width: 100%;
+}
+h2 {
+  text-align: center;
+  margin: 2em;
+  padding-top: 15px;
+}
+h3 {
+  text-align: center;
+  padding: 1em 0px;
+}
+article {
+  margin: 2em 10em;
+  background: linear-gradient(#fefefe, #888888);
+  padding: 0 15px;
+}
+p {
+  text-align: justify;
+}
+#geral div {
+  display: inline-block;
+  max-width: 70%;
+}
+#geral table {
+  float: right;
+  border: 1px solid #cccccc;
+  margin: 0 0 0.5em 1em;
+}
+table th {
+  background-color: #cccccc;
+  text-align: center;
+}
+table td {
+  padding: 0 0.5em;
+  height: 1.5em;
+}
+
+.fato {
+  display: inline-block;
+}
+.fato img {
+  float: left;
+  padding-right: 15px;
+  width: 250px;
+}
+#ref {
+  padding-left: 20px;
+  padding-bottom: 15px;
+}
+.video {
+  text-align: center;
+}
+aside,
+footer {
+  margin: 2em 10em;
+}
