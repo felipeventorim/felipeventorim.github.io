@@ -1,0 +1,150 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background: rgb(122, 121, 121);
+}
+
+h1 {
+  font-family: 'Courier New', Courier, monospace;
+  font-size: 3em;
+  text-align: center;
+  text-transform: capitalize;
+}
+
+.content {
+  width: 480px;
+  height: 480px;
+  background-image: radial-gradient(closest-corner, rgb(121, 121, 121) 200px, rgb(240, 240, 240));
+  border-radius: 10%;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.tabuleiro {
+  width: 87.5%;
+  height: 87.5%;
+  background-image: url('https://www.ecompletocdn.com.br/i/fp/1707/972350_2_1530111508.jpg');
+  border-radius: 10%;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.linha {
+  width: 400px;
+  height: 6px;
+  background-color: black;
+  position: absolute;
+  margin-left: 10px;
+}
+
+.linha.um {
+  top: 33%;
+  transform: translate(0, -50%);
+}
+
+.linha.dois {
+  top: 66%;
+  transform: translate(0, -50%);
+}
+
+.coluna {
+  width: 6px;
+  height: 400px;
+  background-color: black;
+  position: absolute;
+  margin-top: 10px;
+}
+
+.coluna.um {
+  left: 33%;
+  transform: translate(-50%, 0);
+}
+
+.coluna.dois {
+  left: 66%;
+  transform: translate(-50%, 0);
+}
+
+.x {
+  display: inline-block;
+  color: black;
+  font-size: 100px;
+  position: absolute;
+  transform: translate(-50%, -50%);
+}
+
+.o {
+  display: inline-block;
+  color: black;
+  font-size: 100px;
+  position: absolute;
+  transform: translate(-50%, -50%);
+}
+
+.casa {
+  display: inline-block;
+  width: 120px;
+  height: 120px;
+  position: absolute;
+  transform: translate(-50%, -50%);
+}
+
+.pos0 {
+  left: 70px;
+  top: 70px;
+}
+
+.pos1 {
+  left: 210px;
+  top: 70px;
+}
+
+.pos2 {
+  left: 350px;
+  top: 70px;
+}
+
+.pos3 {
+  left: 70px;
+  top: 210px;
+}
+
+.pos4 {
+  left: 210px;
+  top: 210px;
+}
+
+.pos5 {
+  left: 350px;
+  top: 210px;
+}
+
+.pos6 {
+  left: 70px;
+  top: 350px;
+}
+
+.pos7 {
+  left: 210px;
+  top: 350px;
+}
+
+.pos8 {
+  left: 350px;
+  top: 350px;
+}
+
+footer {
+  font-size: 12px;
+  margin: 2em 1em;
+  position: absolute;
+  bottom: 1%;
+  right: 1%;
+}
